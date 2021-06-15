@@ -1,4 +1,4 @@
-/*---Please comment here---*/
+/*---Styling the elements/tags---*/
 body{
   color: #40514E;
   margin: 0;
@@ -53,23 +53,26 @@ a:hover{
 
 p{
   line-height: 2;
+  color: white;
+  font-size: 156.25%;
+  font-weight: bold;
 }
 
 ul {
     width:100%;
     height:20px;
-    text-align:center;
+    text-align: center;
 }
 li {
     display:block;
     float:left;
-    margin-right:10px;
+    margin-right:45px;
+    color: white;
+    font-size: 145%;
+    font-weight: bold;
 }
 
-/*---Please comment here---*/
-
-
-/*---Please comment here---*/
+/*---Styling the classes---*/
 
 .top-container{
   background-repeat: no-repeat;
