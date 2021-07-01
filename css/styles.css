@@ -1,12 +1,12 @@
-/*---Styling the elements/tags---*/
-body{
+/* Elements and tags */
+body {
   color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
-h1{
+h1 {
   color: #810000;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
@@ -14,24 +14,25 @@ h1{
   line-height: 2;
 }
 
-h2{
+h2 {
   color: #91091e;
   font-family: 'Pattaya', sans-serif;
   font-size: 2.5rem;
-  font-weight: normal;
+  font-weight: bold;
   padding-bottom: 40px;
-  margin-bottom: auto;
+  margin-bottom: 0;
 }
 
-h3{
+h3 {
   color: #056674;
   font-size: 2.5rem;
   font-family: 'Bitter', serif;
   margin-bottom: 0;
   padding-bottom: 40px;
+  font-weight: bold;
 }
 
-hr{
+hr {
   border-style: none;
   border-top-style: dotted;
   border-color: #EAF6F6;
@@ -40,48 +41,35 @@ hr{
   margin: 100px auto;
 }
 
-a{
+a {
   color: #11999E;
   font-family: 'Merriweather', serif;
   margin: 10px 20px;
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   color: #EAF6F6;
 }
 
-p{
+p {
   line-height: 2;
-  color: white;
-  font-size: 156.25%;
+  color: #EDEDED;
+  font-size: 156%;
   font-weight: bold;
 }
 
-ul {
-    width:100%;
-    height:20px;
-    text-align: center;
-}
-li {
-    display:block;
-    float:left;
-    margin-right:45px;
-    color: white;
-    font-size: 145%;
-    font-weight: bold;
-}
 
-/*---Styling the classes---*/
+/* Containers section */
 
-.top-container{
+.top-container {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   padding-top: 100px;
 }
 
-.middle-container{
+.middle-container {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -89,7 +77,7 @@ li {
   padding-top: 100px;
 }
 
-.bottom-container{
+.bottom-container {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -97,44 +85,12 @@ li {
 
 }
 
-.footer-link{
-  color: #11999E;
+.grid-container {
+  display: inline-flex;
 }
 
-.boxing-img{
-  width: 25%;
-  float: right;
-  margin-right: 30px;
-}
 
-.code-img{
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.copyright{
-  color: #EAF6F6;
-  font-size: 0.75rem;
-  padding: 20px 0;
-}
-
-.contact-message{
-  width: 40%;
-  margin: 40px auto 60px;
-}
-
-.intro{
-  width: 30%;
-  margin: auto;
-}
-
-.skill-row{
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
-}
-
+/* Introduction section */
 
 .profile-img {
   position: relative;
@@ -143,9 +99,71 @@ li {
   margin: 0;
   height: 50%;
   width: 30%;
+  padding-bottom: 3%;
 }
 
-.screen-img{
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+
+/* About me section */
+
+.about-me {
+  text-align: center;
+  padding: 10%;
+}
+
+.row {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+/* Skills section */
+
+#skills {
+  text-align: center;
+  padding: 10% 5%;
+}
+
+.python-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.java-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.html-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* Contact section */
+
+.footer-link {
+  color: #536162;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.screen-img {
   position: relative;
   overflow: hidden;
   border-radius: 40%;
@@ -154,31 +172,14 @@ li {
   width: 30%;
 }
 
-.linkedin-img{
-  width: 15%;
-}
-.linkedin{
-  width: 25%;
-  margin: 10px 30px 10px auto;
-}
-
-.email{
-  width: 25%;
-  margin: 10px 50px 10px 50px;
-}
-.email-img{
+.linkedin-img {
   width: 15%;
 }
 
-.github{
-  width: 25%;
-  margin-bottom: 10px;
-  margin-right: 60px;
-}
-.github-img{
-  width: 20%;
+.email-img {
+  width: 15%;
 }
 
-.grid-container{
-  display: inline-flex;
+.github-img {
+  width: 22%;
 }
